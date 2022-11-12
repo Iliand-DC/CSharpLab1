@@ -32,9 +32,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.deleteBox = new System.Windows.Forms.TextBox();
             this.btnStart = new System.Windows.Forms.Button();
-            this.dataGridViewRes = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewRes)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -75,22 +73,11 @@
             this.btnStart.UseVisualStyleBackColor = true;
             this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
-            // dataGridViewRes
-            // 
-            this.dataGridViewRes.AllowUserToAddRows = false;
-            this.dataGridViewRes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewRes.Location = new System.Drawing.Point(349, 89);
-            this.dataGridViewRes.Name = "dataGridViewRes";
-            this.dataGridViewRes.RowHeadersWidth = 47;
-            this.dataGridViewRes.Size = new System.Drawing.Size(240, 150);
-            this.dataGridViewRes.TabIndex = 4;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.dataGridViewRes);
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.deleteBox);
             this.Controls.Add(this.textBox1);
@@ -98,7 +85,6 @@
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewRes)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -110,7 +96,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox deleteBox;
         private System.Windows.Forms.Button btnStart;
-        private System.Windows.Forms.DataGridView dataGridViewRes;
     }
 }
 
